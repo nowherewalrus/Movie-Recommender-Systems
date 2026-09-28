@@ -197,38 +197,6 @@ movie-recommender/
 
 ---
 
-## 🚀 Future Enhancements
-
-### **Planned Features**
-- [ ] **Hybrid Approach**: Combine content-based and collaborative filtering
-- [ ] **Matrix Factorization**: Implement SVD for improved collaborative filtering
-- [ ] **Deep Learning**: Neural network-based recommendations
-- [ ] **Real-time Updates**: Incremental model updates
-- [ ] **Web Interface**: Flask/Django web application
-- [ ] **API Endpoints**: REST API for recommendations
-
-### **Technical Improvements**
-- [ ] **Scalability**: Handle larger datasets
-- [ ] **Performance**: Optimize similarity computations
-- [ ] **Evaluation**: Add precision/recall metrics
-- [ ] **Deployment**: Docker containerization
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-=
-
----
-
 ## ✉️ Contact
 
 Parsa Khaghani - https://www.linkedin.com/in/parsa-khaghani-a22847326/
@@ -245,49 +213,12 @@ Project Link: https://github.com/nowherewalrus/Movie-Recommender-Systems.git
 
 ---
 
-## ⚠️ Note
-
-The warning about `numexpr` version is non-critical. To resolve:
-```bash
-pip install --upgrade numexpr
-```
-
----
-
 ## 📚 References
 
 1. MovieLens Dataset: https://grouplens.org/datasets/movielens/
 2. Scikit-learn Documentation: https://scikit-learn.org/
 3. Pandas Documentation: https://pandas.pydata.org/
 
----
-
-## 🎯 Quick Start Guide
-
-### **For Content-Based Recommendations:**
-```python
-# Modify user preferences
-userInput = [
-    {'title': 'Your Favorite Movie', 'rating': 5.0},
-    # Add more movies...
-]
-
-# Run content-based filtering
-# Results will be based on genre similarity
-```
-
-### **For Collaborative Recommendations:**
-```python
-# The system automatically finds similar users
-# Recommendations are based on users with similar taste
-```
-
-### **For Hybrid Approach:**
-```python
-# Combine both methods for best results
-# Average scores from both approaches
-# Get diverse and accurate recommendations
-```
 
 ---
 
